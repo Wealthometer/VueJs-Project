@@ -1,9 +1,12 @@
 <script setup>
   import Welcome from './components/pages/Welcome.vue'
+  import Layout from './components/layouts/Layout.vue'
 </script>
 
 <template>
-  <Welcome />
+  <Layout>
+    <Welcome />
+  </Layout>
 </template>
 
 <style scoped>
